@@ -1,0 +1,219 @@
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI-Light.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI Light'), local('/wp-content/themes/Divi/font/SegoeUI-Light'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Light.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Light.ttf') format('truetype');
+	display:swap;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI-BoldItalic.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI Bold Italic'), local('/wp-content/themes/Divi/font/SegoeUI-BoldItalic'),
+		url('/wp-content/themes/Divi/font/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI-BoldItalic.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI-BoldItalic.ttf') format('truetype');
+	display:swap;
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI-SemiBold.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI Semibold'), local('/wp-content/themes/Divi/font/SegoeUI-SemiBold'),
+		url('/wp-content/themes/Divi/font/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI-SemiBold.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI-SemiBold.ttf') format('truetype');
+	display:swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI'), local('/wp-content/themes/Divi/font/SegoeUI'),
+		url('/wp-content/themes/Divi/font/SegoeUI.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI.ttf') format('truetype');
+	display:swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI-Bold.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI Bold'), local('/wp-content/themes/Divi/font/SegoeUI-Bold'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Bold.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Bold.ttf') format('truetype');
+	display:swap;
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/wp-content/themes/Divi/font/SegoeUI-Italic.eot');
+	src: local('/wp-content/themes/Divi/font/Segoe UI Italic'), local('/wp-content/themes/Divi/font/SegoeUI-Italic'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Italic.woff') format('woff'),
+		url('/wp-content/themes/Divi/font/SegoeUI-Italic.ttf') format('truetype');
+	display:swap;
+	font-weight: normal;
+	font-style: italic;
+}
+
+#et-boc > div > div > div {
+	background-image: url(/wp-content/uploads/2020/03/bg.jpg);
+	background-position: left top;
+	background-size: cover;
+	max-width: 1920px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+#et-boc > div > div > div > div {
+	padding: 0;
+}
+
+.header {
+	margin-bottom: 170px;
+}
+
+.text-logo {
+	font-family: "Segoe UI";
+	
+	color: #000;
+
+	.wrap-flex {
+		display: flex;
+		flex-wrap: wrap;
+		flex-flow: wrap-reverse;
+		-webkit-box-align: flex-start;
+		-webkit-align-items: flex-start;
+		-ms-flex-align: flex-start;
+		align-items: flex-start;
+		padding: 0 0 40px;
+		.logo img {
+			width: 400px;
+		}
+	}
+	.title {
+		font-size: 65px;
+		font-weight: bold;
+		line-height: 0.923;
+		max-width: 860px;
+		padding: 0;
+		span {
+			color:#357bac;
+		}
+		span:last-child {
+			color:#6da6ca;
+		}
+		margin-right: 130px;
+	}
+	.sub-title {
+		font-size: 27px;
+		font-weight: normal;
+		line-height: 1.5;
+		padding-bottom: 85px!important;
+	}
+}
+
+.header-actions {
+	padding-left: 38px;
+	max-width: 700px;
+	a {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: 32px;
+		font-family: "Segoe UI";
+		color: #929292;
+		line-height: 1.25;
+		margin-bottom: 58px;
+		svg {
+			margin-right: 12px;
+		}
+		p {
+			padding: 26px 45px!important;
+			border-radius: 0 10px 10px 0;
+			border-top: 3px solid;
+			border-right: 3px solid;
+			border-bottom: 3px solid;
+			border-color: #929292;
+			width: 445px;
+		}
+	}
+	a:hover { 
+		color: #357bac;
+		p {
+			border-color: #357bac;
+		}
+
+	}
+}
+
+@media (max-width:1400px) {
+	.text-logo {
+		.wrap-flex {
+			.logo {
+				width: 100%;
+			}
+			.logo a {
+				width: 100%;
+				display: block;
+				text-align: center;
+				margin-bottom: 30px;
+			}
+			.title{
+				margin-right: 0;
+			}
+			
+
+		}
+	}
+
+}
+
+@media (max-width:780px) {
+	.text-logo {
+		.wrap-flex {
+			.title{
+				font-size: 35px;
+			}
+			
+
+		}
+		.sub-title {
+			font-size: 20px;
+			padding-bottom: 40px!important;
+		}
+	}
+
+	.header-actions {
+		padding-left: 0;
+		a {
+			svg {
+				width: 50px;
+				height: auto;
+			}
+			p {
+				font-size: 14px;
+				padding: 10px 15px !important;
+				width: 190px;
+			}
+		}
+	}
+
+
+}
